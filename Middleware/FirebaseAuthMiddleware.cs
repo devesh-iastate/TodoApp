@@ -1,6 +1,5 @@
 namespace TodoApp.Middleware;
 
-// Middleware/FirebaseAuthMiddleware.cs
 using FirebaseAdmin.Auth;
 using System.Security.Claims;
 
