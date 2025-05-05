@@ -11,14 +11,12 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Configure one-to-many relationship
         modelBuilder.Entity<TodoItem>()
             .HasOne(t => t.User)
             .WithMany()
             .HasForeignKey("UserId")  // EF requires a FK name if not on model
             .OnDelete(DeleteBehavior.Cascade);
 
-        // Store Dictionary<string, DateTime> as JSON
         modelBuilder.Entity<User>()
             .Property(u => u.LastUpdated)
             .HasConversion(
