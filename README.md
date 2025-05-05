@@ -32,27 +32,6 @@ A clean, functional, and flexible To-Do application that demonstrates essential 
 
 ---
 
-## 🗂️ Folder Structure
-
-```
-TodoApp/
-├── client-app/                 # Vue.js frontend
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── TodoList.vue
-│   │   │   └── ProviderSelector.vue
-│   │   ├── App.vue
-│   │   └── main.js
-├── Middleware/
-│   └── FirebaseAuthMiddleware.cs
-├── Program.cs
-├── appsettings.json
-├── .env
-└── todos.db                    # SQLite database
-```
-
----
-
 ## ▶️ Getting Started
 
 ### 🔧 Prerequisites
