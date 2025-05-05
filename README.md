@@ -107,9 +107,3 @@ VUE_APP_API_BASE=http://localhost:5000/api
 ## 📄 License
 
 MIT License © 2025
-
----
-
-## 🙌 Credits
-
-Developed with ❤️ by Atish
